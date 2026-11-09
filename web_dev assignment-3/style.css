@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ecebe9;
+}
+
+
+header{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e55ec;
+    padding: 1%;
+    
+    
+    
+}
+
+header,h1{color: rgb(237, 235, 231);
+
+}
+
+nav,a{color: rgb(245, 243, 238);
+    display: flex;
+    gap: 30px;
+}
+nav,a:hover{color: rgba(237, 9, 9, 0.83);
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 20px;
+    min-height: 100px;
+    
+}
+
+.hero-content {
+    width: 100%;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    color: #050505;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    color: #3e55ec;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #3e55ec;
+    font-weight: bold;
+    
+}
+
+.hero-image img {
+   width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+    border: 6px ridge #2139d6;
+
+
+    box-shadow: 0px 8px 25px rgba(255, 69, 1, 0.3);
+
+    transition: 0.4s;
+    border-radius: 2px red;
+}
+
+.hero-image img:hover {
+    transform: scale(1.2);
+}
+
+
+.about h3 {font-size: 35px;
+  
+}
+
+.about p{
+    font-size: 15px;
+     ;
+
+}
+
+
+.skills-section {
+    
+    font-family: Arial, sans-serif;
+}
+
+.skills-section h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+.skills-container {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+
+.skill-card {
+    background-color:#3e55ec; /* Blue background */
+    color: white;
+    padding: 20px;
+    border-radius: 8px; /* Thode gol kone */
+    text-align: center;
+    flex: 1; /* Sabhi boxes barabar width lenge */
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgba(210, 234, 29, 0.1);
+}
+
+.skill-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.skill-card p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+#projects {  display: flex;
+    flex-direction: column;
+    allign-items: center;
+    gap: 20px;
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+#projects h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+
+.project-card {
+    width: 60%;
+    height: 150px;
+    background-color: white;
+    border: 2px solid #2e06f5;
+    border-radius: 5px;
+    text-align: center;
+    
+    background-color:#edeffa;
+    margin: 10px auto;
+    
+}
+
+
+#contact {
+    padding: 0px
+    ;
+}
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 300px;
+    background-color: #f9fafd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #2f2525;
+    border: 3px solid #3e55ec;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+form  input{border: SOLID #3e55ec;
+    height: 30px;
+}
+
+
+
+form textarea {
+    height: 70px;
+    BORDER: SOLID #3e55ec;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0a0af5;
+    color: rgb(248, 245, 245);
+    border: SOLID #3e55ec;
+    cursor: pointer;
+}
+
+footer {
+    background-color:#3e55ec;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
